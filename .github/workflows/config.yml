@@ -22,6 +22,13 @@ jobs:
         run: |
           docker-compose up --exit-code-from regression || true
 
+      - name: Verify directories and permissions
+        run: |
+          ls -ld allure-results || echo "Directory allure-results does not exist"
+          ls -ld ./.github/gh-pages/history || echo "Directory ./.github/gh-pages/history does not exist"
+          ls -la allure-results/
+          ls -la ./.github/gh-pages/history/
+
       - name: Copy history from gh-pages to allure-results
         run: |
           mkdir -p allure-results/history 
@@ -29,16 +36,14 @@ jobs:
 
       - name: Generate Allure report
         run: |
-          sudo docker-compose run regression /bin/sh -c "allure generate allure-results --clean -o allure-report"
+          docker-compose run regression /bin/sh -c "allure generate allure-results --clean -o allure-report"
 
       - name: Update Allure history
         run: |
-          sudo cp -R allure-report/history/* ./.github/gh-pages/history/
+          cp -R allure-report/history/* ./.github/gh-pages/history/
 
       - name: Deploy to GitHub Pages
         uses: JamesIves/github-pages-deploy-action@4.1.5
         with:
           token: ${{ secrets.CI_TOKEN }}
           branch: gh-pages
-          folder: allure-report
-          clean: true
