@@ -7,43 +7,33 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout main repository
-        uses: actions/checkout@v2
+      - uses: actions/checkout@v2
 
-      - name: Checkout gh-pages branch
+      - name: Checkout (copy) gh-pages repository to GitHub runner
         uses: actions/checkout@v2
         with:
           ref: gh-pages
           path: ./.github/gh-pages
 
-      - name: Run UI tests via docker-compose
+      - name: Run UI-tests via docker-compose
         env:
           LOGIN: ${{ secrets.LOGIN }}
           PASSWORD: ${{ secrets.PASSWORD }}
         run: |
           docker-compose up --exit-code-from regression || true
 
-      - name: List directory contents for debugging
-        run: |
-          ls -la
-          ls -la ./.github/gh-pages
-          ls -la allure-results
-
-      - name: Create allure-results directory
-        run: |
-          mkdir -p allure-results/history
-
       - name: Copy history from gh-pages to allure-results
         run: |
-          cp -R ./.github/gh-pages/history/* allure-results/history/ || echo "No files to copy"
+          mkdir -p allure-results/history 
+          cp -R ./.github/gh-pages/history/* allure-results/history/
 
       - name: Generate Allure report
         run: |
-          docker-compose run regression /bin/sh -c "allure generate allure-results --clean -o allure-report"
+          sudo docker-compose run regression /bin/sh -c "allure generate allure-results --clean -o allure-report"
 
       - name: Update Allure history
         run: |
-          cp -R allure-report/history/* ./.github/gh-pages/history/
+          sudo cp -R allure-report/history/* ./.github/gh-pages/history/
 
       - name: Deploy to GitHub Pages
         uses: JamesIves/github-pages-deploy-action@4.1.5
