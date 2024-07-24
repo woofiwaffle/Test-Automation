@@ -3,22 +3,22 @@
   "children" : [ {
     "name" : "Test defects",
     "children" : [ {
-      "name" : "selenium.common.exceptions.ElementClickInterceptedException: Message: element click intercepted: Element <button data-v-10d463b7=\"\" data-v-8c6e0396=\"\" type=\"submit\" class=\"oxd-button oxd-button--medium oxd-button--secondary orangehrm-left-space\">...</button> is not clickable at point (1789, 709). Other element would receive the click: <form data-v-d5bfe35b=\"\" data-v-8c6e0396=\"\" class=\"oxd-form\" novalidate=\"\">...</form>\n  (Session info: headless chrome=112.0.5615.165)",
+      "name" : "selenium.common.exceptions.TimeoutException: Message:",
       "children" : [ {
         "name" : "Change profile name",
-        "uid" : "f920ed6527605208",
-        "parentUid" : "ea7d3b4611c31d189cd7866923fecc8e",
+        "uid" : "f9c8661b4dec248b",
+        "parentUid" : "31bb78a6a95ede3f78b260ed048910d8",
         "status" : "broken",
         "time" : {
-          "start" : 1721854515864,
-          "stop" : 1721854524100,
-          "duration" : 8236
+          "start" : 1721854687279,
+          "stop" : 1721854708538,
+          "duration" : 21259
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       } ],
-      "uid" : "ea7d3b4611c31d189cd7866923fecc8e"
+      "uid" : "31bb78a6a95ede3f78b260ed048910d8"
     } ],
     "uid" : "bdbf199525818fae7a8651db9eafe741"
   } ],
