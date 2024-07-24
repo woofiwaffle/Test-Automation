@@ -1,0 +1,22 @@
+{
+  "42b4a115007c35c622675a0baedb491a" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "f920ed6527605208",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.ElementClickInterceptedException: Message: element click intercepted: Element <button data-v-10d463b7=\"\" data-v-8c6e0396=\"\" type=\"submit\" class=\"oxd-button oxd-button--medium oxd-button--secondary orangehrm-left-space\">...</button> is not clickable at point (1789, 709). Other element would receive the click: <form data-v-d5bfe35b=\"\" data-v-8c6e0396=\"\" class=\"oxd-form\" novalidate=\"\">...</form>\n  (Session info: headless chrome=112.0.5615.165)",
+      "time" : {
+        "start" : 1721854515864,
+        "stop" : 1721854524100,
+        "duration" : 8236
+      }
+    } ]
+  }
+}
