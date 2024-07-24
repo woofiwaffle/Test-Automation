@@ -26,9 +26,17 @@ jobs:
         run: |
           mkdir -p ./.github/gh-pages/history
 
+      - name: Change ownership of allure-results directory
+        run: |
+          sudo chown -R $USER:$USER allure-results
+
+      - name: Set permissions for allure-results
+        run: |
+          chmod -R 755 allure-results
+
       - name: Copy history from gh-pages to allure-results
         run: |
-          mkdir -p allure-results/history
+          mkdir -p allure-results/history 
           cp -R ./.github/gh-pages/history/* allure-results/history/
 
       - name: Generate Allure report
