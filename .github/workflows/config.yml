@@ -23,13 +23,18 @@ jobs:
         run: |
           docker-compose up --exit-code-from regression || true
 
-      - name: List contents of gh-pages directory
+      - name: List directory contents for debugging
         run: |
-          ls -R ./.github/gh-pages/
+          ls -la
+          ls -la ./.github/gh-pages
+          ls -la allure-results
+
+      - name: Create allure-results directory
+        run: |
+          mkdir -p allure-results/history
 
       - name: Copy history from gh-pages to allure-results
         run: |
-          mkdir -p allure-results/history
           cp -R ./.github/gh-pages/history/* allure-results/history/ || echo "No files to copy"
 
       - name: Generate Allure report
