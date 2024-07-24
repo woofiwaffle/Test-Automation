@@ -1,6 +1,6 @@
 /venv/
 /.idea/
-/.env/
 .pytest_cache
+.env
 allure-results
 report
