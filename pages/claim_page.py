@@ -8,11 +8,11 @@ from selenium.webdriver.support import expected_conditions as EC
 class ClaimPage(BasePage):
     PAGE_URL = Links.CLAIM_PAGE
 
-    REFERENCE_ID_INPUT = (By.XPATH, '//*[@id="app"]/div[1]/div[2]/div[2]/div[1]/div[2]/'
-                                    'form/div[1]/div/div[2]/div/div[2]/div/div/input')
-    SEARCH_BUTTON = (By.XPATH, '//*[@id="app"]/div[1]/div[2]/div[2]/div[1]/div[2]/form/div[3]/button[2]')
-    CLAIM_INFO_ROW = (By.XPATH, '//*[@id="app"]/div[1]/div[2]/div[2]/div[2]/div[3]/div/div[2]/div/div')
-    NUMBER_EXTRACTOR = (By.XPATH, '//*[@id="app"]/div[1]/div[2]/div[2]/div[2]/div[3]/div/div[2]/div[1]/div/div[1]/div')
+    REFERENCE_ID_INPUT = (By.XPATH, '(//input[@placeholder="Type for hints..."])[2]')
+    SEARCH_BUTTON = (By.XPATH, '(//button[@type="submit"])[1]')
+    CLAIM_INFO = (By.XPATH, '(//div[@class="oxd-table-row oxd-table-row--with-border"])[2]')
+    NUMBER_EXTRACTOR = (By.XPATH, '(//div[@data-v-6c07a142])[1]')
+    SPINNER = (By.XPATH, '//div[@class="oxd-loading-spinner"]')
 
 
     @allure.step("Get and Enter Reference ID")
@@ -30,13 +30,17 @@ class ClaimPage(BasePage):
 
     @allure.step("Get claim information")
     def get_claim_info(self):
-        rows = self.wait.until(EC.visibility_of_all_elements_located(self.CLAIM_INFO_ROW))
+        rows = self.wait.until(EC.visibility_of_all_elements_located(self.CLAIM_INFO))
         data_list = []
         for row in rows:
             cells = row.find_elements(By.CSS_SELECTOR, 'div.oxd-table-cell')
             row_data = [cell.text.strip() for cell in cells[:8]]
             data_list.append(row_data)
         return data_list
+
+    @allure.step("Changes has been saved successfully")
+    def is_search_saved(self):
+        self.wait.until(EC.invisibility_of_element_located(self.SPINNER))
 
     @allure.step("Save claim information to CSV")
     def save_claim_info_to_csv(self, file_path):
