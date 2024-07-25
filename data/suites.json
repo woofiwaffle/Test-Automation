@@ -3,18 +3,39 @@
   "children" : [ {
     "name" : "tests",
     "children" : [ {
+      "name" : "feature_claim_test",
+      "children" : [ {
+        "name" : "TestClaimFeature",
+        "children" : [ {
+          "name" : "Get claim data",
+          "uid" : "23c4ffc716d5fefb",
+          "parentUid" : "e5b7b7ff4850770fb6c307f529cdfb87",
+          "status" : "passed",
+          "time" : {
+            "start" : 1721932861602,
+            "stop" : 1721932870594,
+            "duration" : 8992
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "e5b7b7ff4850770fb6c307f529cdfb87"
+      } ],
+      "uid" : "956f238add23e6c7a6793493a5fa8c3c"
+    }, {
       "name" : "feature_profile_test",
       "children" : [ {
         "name" : "TestProfileFeature",
         "children" : [ {
           "name" : "Change profile name",
-          "uid" : "4bc8886ef0d319c5",
+          "uid" : "deb6d6f64c325c1a",
           "parentUid" : "ecec602510fca8558358a9e53be22b2c",
           "status" : "passed",
           "time" : {
-            "start" : 1721855037604,
-            "stop" : 1721855047696,
-            "duration" : 10092
+            "start" : 1721932871084,
+            "stop" : 1721932882079,
+            "duration" : 10995
           },
           "flaky" : false,
           "newFailed" : false,

@@ -1,10 +1,20 @@
 [ {
-  "uid" : "4bc8886ef0d319c5",
+  "uid" : "deb6d6f64c325c1a",
   "name" : "Change profile name",
   "time" : {
-    "start" : 1721855037604,
-    "stop" : 1721855047696,
-    "duration" : 10092
+    "start" : 1721932871084,
+    "stop" : 1721932882079,
+    "duration" : 10995
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "23c4ffc716d5fefb",
+  "name" : "Get claim data",
+  "time" : {
+    "start" : 1721932861602,
+    "stop" : 1721932870594,
+    "duration" : 8992
   },
   "status" : "passed",
   "severity" : "critical"
