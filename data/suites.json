@@ -8,13 +8,13 @@
         "name" : "TestClaimFeature",
         "children" : [ {
           "name" : "Get claim data",
-          "uid" : "23c4ffc716d5fefb",
+          "uid" : "5fb3a6d933bc61d9",
           "parentUid" : "e5b7b7ff4850770fb6c307f529cdfb87",
           "status" : "passed",
           "time" : {
-            "start" : 1721932861602,
-            "stop" : 1721932870594,
-            "duration" : 8992
+            "start" : 1721937118345,
+            "stop" : 1721937127298,
+            "duration" : 8953
           },
           "flaky" : false,
           "newFailed" : false,
@@ -29,13 +29,13 @@
         "name" : "TestProfileFeature",
         "children" : [ {
           "name" : "Change profile name",
-          "uid" : "deb6d6f64c325c1a",
+          "uid" : "2b262bf92a7e921b",
           "parentUid" : "ecec602510fca8558358a9e53be22b2c",
           "status" : "passed",
           "time" : {
-            "start" : 1721932871084,
-            "stop" : 1721932882079,
-            "duration" : 10995
+            "start" : 1721937127803,
+            "stop" : 1721937139169,
+            "duration" : 11366
           },
           "flaky" : false,
           "newFailed" : false,

@@ -1,39 +1,39 @@
 {
   "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
   "children" : [ {
-    "name" : "e845e90ff932",
+    "name" : "75ce1361cc26",
     "children" : [ {
       "name" : "1-MainThread",
       "children" : [ {
-        "name" : "Change profile name",
-        "uid" : "deb6d6f64c325c1a",
-        "parentUid" : "ae2c5867c09aa07b08b66b891a9bd900",
+        "name" : "Get claim data",
+        "uid" : "5fb3a6d933bc61d9",
+        "parentUid" : "c495006af6dbd782e62ac3fc96fe39ed",
         "status" : "passed",
         "time" : {
-          "start" : 1721932871084,
-          "stop" : 1721932882079,
-          "duration" : 10995
+          "start" : 1721937118345,
+          "stop" : 1721937127298,
+          "duration" : 8953
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
-        "name" : "Get claim data",
-        "uid" : "23c4ffc716d5fefb",
-        "parentUid" : "ae2c5867c09aa07b08b66b891a9bd900",
+        "name" : "Change profile name",
+        "uid" : "2b262bf92a7e921b",
+        "parentUid" : "c495006af6dbd782e62ac3fc96fe39ed",
         "status" : "passed",
         "time" : {
-          "start" : 1721932861602,
-          "stop" : 1721932870594,
-          "duration" : 8992
+          "start" : 1721937127803,
+          "stop" : 1721937139169,
+          "duration" : 11366
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       } ],
-      "uid" : "ae2c5867c09aa07b08b66b891a9bd900"
+      "uid" : "c495006af6dbd782e62ac3fc96fe39ed"
     } ],
-    "uid" : "b7cfe423e5e117288963d46951d3d4ad"
+    "uid" : "0c3721ab0844f59251dc6f1564a5b189"
   } ],
   "name" : "timeline"
 }
