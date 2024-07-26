@@ -19,7 +19,7 @@ jobs:
 
       - name: Run Lighthouse Audit
         run: |
-          lighthouse http://localhost:YOUR_PORT --output=html --output-path=./lighthouse-report.html || true
+          lighthouse https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index --output=html --output-path=./lighthouse-report.html || true
 
       - name: Upload Lighthouse Report
         uses: actions/upload-artifact@v2
