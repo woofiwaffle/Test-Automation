@@ -3,47 +3,47 @@
   "children" : [ {
     "name" : "tests",
     "children" : [ {
-      "name" : "feature_claim_test",
+      "name" : "claim_test",
       "children" : [ {
         "name" : "TestClaimFeature",
         "children" : [ {
           "name" : "Get claim data",
-          "uid" : "1530f562087ba149",
-          "parentUid" : "e5b7b7ff4850770fb6c307f529cdfb87",
+          "uid" : "427afcdcf5628ff9",
+          "parentUid" : "585af7d98571851452a1c95be9fd6d90",
           "status" : "passed",
           "time" : {
-            "start" : 1721998947552,
-            "stop" : 1721998956394,
-            "duration" : 8842
+            "start" : 1722021214829,
+            "stop" : 1722021223359,
+            "duration" : 8530
           },
           "flaky" : false,
           "newFailed" : false,
           "parameters" : [ ]
         } ],
-        "uid" : "e5b7b7ff4850770fb6c307f529cdfb87"
+        "uid" : "585af7d98571851452a1c95be9fd6d90"
       } ],
-      "uid" : "956f238add23e6c7a6793493a5fa8c3c"
+      "uid" : "24365bb781b63e2e5510c3ed11da0d02"
     }, {
-      "name" : "feature_profile_test",
+      "name" : "profile_test",
       "children" : [ {
         "name" : "TestProfileFeature",
         "children" : [ {
           "name" : "Change profile name",
-          "uid" : "8b388b42692c4945",
-          "parentUid" : "ecec602510fca8558358a9e53be22b2c",
-          "status" : "broken",
+          "uid" : "ca165750f99974e4",
+          "parentUid" : "80384382bc4a527c36c15c4cbffa12e6",
+          "status" : "passed",
           "time" : {
-            "start" : 1721998956875,
-            "stop" : 1721998977008,
-            "duration" : 20133
+            "start" : 1722021223834,
+            "stop" : 1722021234457,
+            "duration" : 10623
           },
           "flaky" : false,
           "newFailed" : false,
           "parameters" : [ ]
         } ],
-        "uid" : "ecec602510fca8558358a9e53be22b2c"
+        "uid" : "80384382bc4a527c36c15c4cbffa12e6"
       } ],
-      "uid" : "25227cccd8d449703da24a13b6a34b9f"
+      "uid" : "a331ee75296431f928a74b3bd43ed579"
     } ],
     "uid" : "e387fa4bb326b54ea8c19c2822aba374"
   } ],
