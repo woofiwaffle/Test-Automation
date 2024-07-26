@@ -1,0 +1,21 @@
+[ {
+  "uid" : "1530f562087ba149",
+  "name" : "Get claim data",
+  "time" : {
+    "start" : 1721998947552,
+    "stop" : 1721998956394,
+    "duration" : 8842
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "8b388b42692c4945",
+  "name" : "Change profile name",
+  "time" : {
+    "start" : 1721998956875,
+    "stop" : 1721998977008,
+    "duration" : 20133
+  },
+  "status" : "broken",
+  "severity" : "critical"
+} ]
