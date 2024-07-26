@@ -31,15 +31,6 @@ jobs:
         run: |
           sudo docker-compose run regression /bin/sh -c "allure generate allure-results --clean -o allure-report"
 
-      - name: Run Lighthouse Audit
-        run: |
-          lighthouse https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index --output=html --output-path=./lighthouse-report.html || true
-
-      - name: Copy Lighthouse Report
-        run: |
-          sudo mkdir -p allure-report/lighthouse
-          sudo cp ./lighthouse-report.html allure-report/lighthouse/
-
       - name: Update Allure history
         run: |
           sudo cp -R allure-report/history/* ./.github/gh-pages/history/
