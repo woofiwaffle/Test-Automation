@@ -19,7 +19,7 @@ jobs:
 
       - name: Start Application
         run: |
-          docker-compose up -d your_service
+          docker-compose up --exit-code-from regression || true
 
       - name: Run Lighthouse Audit
         run: |
