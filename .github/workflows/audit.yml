@@ -17,16 +17,22 @@ jobs:
       - name: Install Lighthouse
         run: npm install -g lighthouse
 
-      - name: Start Application
-        run: |
-          docker-compose up --exit-code-from regression || true
-
       - name: Run Lighthouse Audit
         run: |
-          lighthouse https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index --output=json --output-path=./reports/lighthouse-report.json || true
+          lighthouse http://localhost:YOUR_PORT --output=html --output-path=./lighthouse-report.html || true
 
       - name: Upload Lighthouse Report
         uses: actions/upload-artifact@v2
         with:
           name: lighthouse-report
-          path: ./lighthouse-report.json
+          path: ./lighthouse-report.html
+
+      - name: Deploy Lighthouse Report to GitHub Pages
+        if: success()
+        uses: JamesIves/github-pages-deploy-action@4.1.5
+        with:
+          token: ${{ secrets.CI_TOKEN }}
+          branch: gh-pages
+          folder: ./
+          clean: true
+
