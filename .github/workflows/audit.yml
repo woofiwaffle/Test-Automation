@@ -1,0 +1,32 @@
+name: Lighthouse Audit
+
+on: workflow_dispatch
+
+jobs:
+  lighthouse-audit:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v2
+
+      - name: Set up Node.js environment
+        uses: actions/setup-node@v2
+        with:
+          node-version: '14'
+
+      - name: Install Lighthouse
+        run: npm install -g lighthouse
+
+      - name: Start Application
+        run: |
+          docker-compose up -d your_service
+
+      - name: Run Lighthouse Audit
+        run: |
+          lighthouse https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index --output=json --output-path=./reports/lighthouse-report.json || true
+
+      - name: Upload Lighthouse Report
+        uses: actions/upload-artifact@v2
+        with:
+          name: lighthouse-report
+          path: ./lighthouse-report.json
