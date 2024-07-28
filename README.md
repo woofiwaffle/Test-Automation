@@ -11,7 +11,7 @@
 
 ## Description
 
-The TestAutomation project is designed to automate testing of the OrangeHRM web application. Also allows you to manage tests, run them and create test reports (for pytest)
+The project is designed to automate testing of the OrangeHRM web application. Also allows you to manage tests, run them and create test reports (for pytest)
 
 ## Project structure
 
