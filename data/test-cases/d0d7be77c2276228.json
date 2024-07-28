@@ -1,22 +1,22 @@
 {
-  "uid" : "427afcdcf5628ff9",
+  "uid" : "d0d7be77c2276228",
   "name" : "Get claim data",
-  "fullName" : "tests.claim_test.TestClaimFeature#test_claim_name",
-  "historyId" : "c28c78951adb2f1246f94d6e23b4405a",
+  "fullName" : "tests.test_claim.TestClaimFeature#test_claim_name",
+  "historyId" : "188c11e8a8ac974d850d2dbf0f533086",
   "time" : {
-    "start" : 1722021214829,
-    "stop" : 1722021223359,
-    "duration" : 8530
+    "start" : 1722200634600,
+    "stop" : 1722200642516,
+    "duration" : 7916
   },
   "status" : "passed",
   "flaky" : false,
   "newFailed" : false,
   "beforeStages" : [ {
-    "name" : "setup",
+    "name" : "driver",
     "time" : {
-      "start" : 1722021214828,
-      "stop" : 1722021214828,
-      "duration" : 0
+      "start" : 1722200634216,
+      "stop" : 1722200634600,
+      "duration" : 384
     },
     "status" : "passed",
     "steps" : [ ],
@@ -27,11 +27,11 @@
     "stepsCount" : 0,
     "hasContent" : false
   }, {
-    "name" : "driver",
+    "name" : "setup",
     "time" : {
-      "start" : 1722021214387,
-      "stop" : 1722021214828,
-      "duration" : 441
+      "start" : 1722200634600,
+      "stop" : 1722200634600,
+      "duration" : 0
     },
     "status" : "passed",
     "steps" : [ ],
@@ -47,9 +47,9 @@
     "steps" : [ {
       "name" : "Open https://opensource-demo.orangehrmlive.com/web/index.php/auth/login page",
       "time" : {
-        "start" : 1722021214829,
-        "stop" : 1722021216268,
-        "duration" : 1439
+        "start" : 1722200634600,
+        "stop" : 1722200636192,
+        "duration" : 1592
       },
       "status" : "passed",
       "steps" : [ ],
@@ -62,8 +62,8 @@
     }, {
       "name" : "Enter login",
       "time" : {
-        "start" : 1722021216268,
-        "stop" : 1722021217322,
+        "start" : 1722200636192,
+        "stop" : 1722200637246,
         "duration" : 1054
       },
       "status" : "passed",
@@ -80,9 +80,9 @@
     }, {
       "name" : "Enter password",
       "time" : {
-        "start" : 1722021217322,
-        "stop" : 1722021217411,
-        "duration" : 89
+        "start" : 1722200637246,
+        "stop" : 1722200637326,
+        "duration" : 80
       },
       "status" : "passed",
       "steps" : [ ],
@@ -98,9 +98,9 @@
     }, {
       "name" : "Click submit button",
       "time" : {
-        "start" : 1722021217411,
-        "stop" : 1722021217453,
-        "duration" : 42
+        "start" : 1722200637326,
+        "stop" : 1722200637380,
+        "duration" : 54
       },
       "status" : "passed",
       "steps" : [ ],
@@ -113,9 +113,9 @@
     }, {
       "name" : "Page https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index is opened",
       "time" : {
-        "start" : 1722021217453,
-        "stop" : 1722021218539,
-        "duration" : 1086
+        "start" : 1722200637380,
+        "stop" : 1722200638334,
+        "duration" : 954
       },
       "status" : "passed",
       "steps" : [ ],
@@ -128,9 +128,9 @@
     }, {
       "name" : "Click on 'Claim' link",
       "time" : {
-        "start" : 1722021218539,
-        "stop" : 1722021220934,
-        "duration" : 2395
+        "start" : 1722200638334,
+        "stop" : 1722200640094,
+        "duration" : 1760
       },
       "status" : "passed",
       "steps" : [ ],
@@ -143,8 +143,8 @@
     }, {
       "name" : "Page https://opensource-demo.orangehrmlive.com/web/index.php/claim/viewAssignClaim is opened",
       "time" : {
-        "start" : 1722021220934,
-        "stop" : 1722021220937,
+        "start" : 1722200640094,
+        "stop" : 1722200640097,
         "duration" : 3
       },
       "status" : "passed",
@@ -158,9 +158,9 @@
     }, {
       "name" : "Get and Enter Reference ID",
       "time" : {
-        "start" : 1722021220937,
-        "stop" : 1722021222047,
-        "duration" : 1110
+        "start" : 1722200640097,
+        "stop" : 1722200641210,
+        "duration" : 1113
       },
       "status" : "passed",
       "steps" : [ ],
@@ -173,9 +173,9 @@
     }, {
       "name" : "Press the search button",
       "time" : {
-        "start" : 1722021222047,
-        "stop" : 1722021222101,
-        "duration" : 54
+        "start" : 1722200641210,
+        "stop" : 1722200641262,
+        "duration" : 52
       },
       "status" : "passed",
       "steps" : [ ],
@@ -188,9 +188,9 @@
     }, {
       "name" : "Changes has been saved successfully",
       "time" : {
-        "start" : 1722021222101,
-        "stop" : 1722021223122,
-        "duration" : 1021
+        "start" : 1722200641262,
+        "stop" : 1722200642281,
+        "duration" : 1019
       },
       "status" : "passed",
       "steps" : [ ],
@@ -203,16 +203,16 @@
     }, {
       "name" : "Save claim information to CSV",
       "time" : {
-        "start" : 1722021223263,
-        "stop" : 1722021223359,
+        "start" : 1722200642420,
+        "stop" : 1722200642516,
         "duration" : 96
       },
       "status" : "passed",
       "steps" : [ {
         "name" : "Get claim information",
         "time" : {
-          "start" : 1722021223263,
-          "stop" : 1722021223359,
+          "start" : 1722200642420,
+          "stop" : 1722200642516,
           "duration" : 96
         },
         "status" : "passed",
@@ -235,11 +235,11 @@
       "hasContent" : true
     } ],
     "attachments" : [ {
-      "uid" : "56862c2b229fa76f",
+      "uid" : "51e0b76f3ce52d4e",
       "name" : "ClaimInfo_Success",
-      "source" : "56862c2b229fa76f.png",
+      "source" : "51e0b76f3ce52d4e.png",
       "type" : "image/png",
-      "size" : 124670
+      "size" : 125575
     } ],
     "parameters" : [ ],
     "attachmentsCount" : 1,
@@ -250,9 +250,9 @@
   "afterStages" : [ {
     "name" : "driver::0",
     "time" : {
-      "start" : 1722021223360,
-      "stop" : 1722021223449,
-      "duration" : 89
+      "start" : 1722200642517,
+      "stop" : 1722200642574,
+      "duration" : 57
     },
     "status" : "passed",
     "steps" : [ ],
@@ -277,13 +277,13 @@
     "value" : "tests"
   }, {
     "name" : "suite",
-    "value" : "claim_test"
+    "value" : "test_claim"
   }, {
     "name" : "subSuite",
     "value" : "TestClaimFeature"
   }, {
     "name" : "host",
-    "value" : "e1d1634cbf2a"
+    "value" : "5b6864de7456"
   }, {
     "name" : "thread",
     "value" : "1-MainThread"
@@ -295,7 +295,7 @@
     "value" : "cpython3"
   }, {
     "name" : "package",
-    "value" : "tests.claim_test"
+    "value" : "tests.test_claim"
   }, {
     "name" : "resultFormat",
     "value" : "allure2"
@@ -310,6 +310,6 @@
     "categories" : [ ],
     "tags" : [ "smoke" ]
   },
-  "source" : "427afcdcf5628ff9.json",
+  "source" : "d0d7be77c2276228.json",
   "parameterValues" : [ ]
 }

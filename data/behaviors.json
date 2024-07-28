@@ -1,16 +1,68 @@
 {
   "uid" : "b1a8273437954620fa374b796ffaacdd",
   "children" : [ {
+    "name" : "test_accessibility",
+    "uid" : "42181c090772887a",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "broken",
+    "time" : {
+      "start" : 1722200627832,
+      "stop" : 1722200627833,
+      "duration" : 1
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "test_status_code",
+    "uid" : "99efb52b3d9ec47a",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1722200628330,
+      "stop" : 1722200629116,
+      "duration" : 786
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "test_content_type",
+    "uid" : "cbba9cab78cb750d",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1722200629555,
+      "stop" : 1722200630358,
+      "duration" : 803
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "test_login_button_present_and_clickable",
+    "uid" : "32ec3fbcde7710f3",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1722200630800,
+      "stop" : 1722200634155,
+      "duration" : 3355
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
     "name" : "Claim Functionality",
     "children" : [ {
       "name" : "Get claim data",
-      "uid" : "427afcdcf5628ff9",
+      "uid" : "d0d7be77c2276228",
       "parentUid" : "b7b60a52c71da241a9f4572b3b277fec",
       "status" : "passed",
       "time" : {
-        "start" : 1722021214829,
-        "stop" : 1722021223359,
-        "duration" : 8530
+        "start" : 1722200634600,
+        "stop" : 1722200642516,
+        "duration" : 7916
       },
       "flaky" : false,
       "newFailed" : false,
@@ -21,13 +73,13 @@
     "name" : "Profile Functionality",
     "children" : [ {
       "name" : "Change profile name",
-      "uid" : "ca165750f99974e4",
+      "uid" : "b5c9b6fd50c43fb7",
       "parentUid" : "bfe6fb5a25b9d3632e34c1e8a59f2830",
       "status" : "passed",
       "time" : {
-        "start" : 1722021223834,
-        "stop" : 1722021234457,
-        "duration" : 10623
+        "start" : 1722200642961,
+        "stop" : 1722200656358,
+        "duration" : 13397
       },
       "flaky" : false,
       "newFailed" : false,

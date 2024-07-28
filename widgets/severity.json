@@ -1,21 +1,61 @@
 [ {
-  "uid" : "ca165750f99974e4",
-  "name" : "Change profile name",
+  "uid" : "d0d7be77c2276228",
+  "name" : "Get claim data",
   "time" : {
-    "start" : 1722021223834,
-    "stop" : 1722021234457,
-    "duration" : 10623
+    "start" : 1722200634600,
+    "stop" : 1722200642516,
+    "duration" : 7916
   },
   "status" : "passed",
   "severity" : "critical"
 }, {
-  "uid" : "427afcdcf5628ff9",
-  "name" : "Get claim data",
+  "uid" : "b5c9b6fd50c43fb7",
+  "name" : "Change profile name",
   "time" : {
-    "start" : 1722021214829,
-    "stop" : 1722021223359,
-    "duration" : 8530
+    "start" : 1722200642961,
+    "stop" : 1722200656358,
+    "duration" : 13397
   },
   "status" : "passed",
   "severity" : "critical"
+}, {
+  "uid" : "42181c090772887a",
+  "name" : "test_accessibility",
+  "time" : {
+    "start" : 1722200627832,
+    "stop" : 1722200627833,
+    "duration" : 1
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "99efb52b3d9ec47a",
+  "name" : "test_status_code",
+  "time" : {
+    "start" : 1722200628330,
+    "stop" : 1722200629116,
+    "duration" : 786
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "32ec3fbcde7710f3",
+  "name" : "test_login_button_present_and_clickable",
+  "time" : {
+    "start" : 1722200630800,
+    "stop" : 1722200634155,
+    "duration" : 3355
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "cbba9cab78cb750d",
+  "name" : "test_content_type",
+  "time" : {
+    "start" : 1722200629555,
+    "stop" : 1722200630358,
+    "duration" : 803
+  },
+  "status" : "passed",
+  "severity" : "normal"
 } ]
