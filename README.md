@@ -1,7 +1,6 @@
 # Test Automation
 
 [![UI Tests](https://github.com/woofiwaffle/Test-Automation/actions/workflows/config.yml/badge.svg)](https://github.com/woofiwaffle/Test-Automation/actions/workflows/config.yml)
-[![codecov](https://codecov.io/github/woofiwaffle/Test-Automation/graph/badge.svg?token=W0GNHDRI0D)](https://codecov.io/github/woofiwaffle/Test-Automation)
 
 <p align="center">
    <img alt="Pytest" src="https://img.shields.io/badge/PyTest-8.3.1-a?style=plastic&logo=pytest&labelColor=black&color=grey">
