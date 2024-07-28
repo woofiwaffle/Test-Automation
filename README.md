@@ -1,3 +1,5 @@
+# Test Automation
+
 [![UI Tests](https://github.com/woofiwaffle/Test-Automation/actions/workflows/config.yml/badge.svg)](https://github.com/woofiwaffle/Test-Automation/actions/workflows/config.yml)
 
 <p align="center">
@@ -6,8 +8,6 @@
    <img alt="DevTools" src="https://img.shields.io/badge/DevTools-2024-a?style=plastic&labelColor=black&color=grey">
    <img alt="Static Badge" src="https://img.shields.io/badge/Docker-4.32-a?style=plastic&logo=docker&labelColor=black&color=gray">
 </p>
-
-# Test Automation
 
 ## Description
 
