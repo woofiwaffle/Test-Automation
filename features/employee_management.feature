@@ -5,4 +5,3 @@ Feature: Employee Management in OrangeHRM
     Given I am logged in as an admin
     When I navigate to the "Add Employee" page
     And I fill in the employee details
-    And Screenshot

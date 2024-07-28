@@ -7,10 +7,7 @@ import time
 import random
 import string
 import csv
-
-# TODO: Изменить XPATHы
-# TODO: добавить скриншот
-# TODO: добавить allure
+import os
 
 WAIT_TIMEOUT = 10
 
@@ -21,6 +18,13 @@ def generate_random_string(length=6):
 def generate_random_employee_id(length=4):
     digits = string.digits
     return ''.join(random.choice(digits) for i in range(length))
+
+def take_screenshot(context, step_name):
+    screenshots_dir = 'features/screenshots'
+    if not os.path.exists(screenshots_dir):
+        os.makedirs(screenshots_dir)
+    screenshot_file = os.path.join(screenshots_dir, f'{step_name}.png')
+    context.driver.save_screenshot(screenshot_file)
 
 @given('I am logged in as an admin')
 def step_given_i_am_logged_in_as_admin(context):
@@ -69,7 +73,5 @@ def step_when_i_fill_in_employee_details(context):
     save_button = context.driver.find_element(By.XPATH, '//*[@id="app"]/div[1]/div[2]/div[2]/div/div/form/div[2]/button[2]')
     WebDriverWait(context.driver, WAIT_TIMEOUT).until(EC.element_to_be_clickable(save_button))
     save_button.click()
-    time.sleep(5)
-@when('Screenshot')
-def screenshot(context):
-    context.make_screenshot('employee_management_steps.png')
+    time.sleep(10)
+    take_screenshot(context, 'employee_details')
