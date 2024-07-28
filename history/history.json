@@ -4,11 +4,19 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 1,
+      "passed" : 2,
       "unknown" : 0,
-      "total" : 1
+      "total" : 2
     },
     "items" : [ {
+      "uid" : "71919f0d44896bce",
+      "status" : "passed",
+      "time" : {
+        "start" : 1722201268398,
+        "stop" : 1722201270595,
+        "duration" : 2197
+      }
+    }, {
       "uid" : "32ec3fbcde7710f3",
       "status" : "passed",
       "time" : {
@@ -23,11 +31,19 @@
       "failed" : 0,
       "broken" : 1,
       "skipped" : 0,
-      "passed" : 0,
+      "passed" : 1,
       "unknown" : 0,
-      "total" : 1
+      "total" : 2
     },
     "items" : [ {
+      "uid" : "3698310b58edf5c9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1722201263894,
+        "stop" : 1722201265610,
+        "duration" : 1716
+      }
+    }, {
       "uid" : "42181c090772887a",
       "status" : "broken",
       "statusDetails" : "AttributeError: type object 'Links' has no attribute 'Host'. Did you mean: 'HOST'?",
@@ -63,11 +79,19 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 1,
+      "passed" : 2,
       "unknown" : 0,
-      "total" : 1
+      "total" : 2
     },
     "items" : [ {
+      "uid" : "66213053a77a3ebc",
+      "status" : "passed",
+      "time" : {
+        "start" : 1722201271039,
+        "stop" : 1722201278830,
+        "duration" : 7791
+      }
+    }, {
       "uid" : "d0d7be77c2276228",
       "status" : "passed",
       "time" : {
@@ -101,11 +125,19 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 1,
+      "passed" : 2,
       "unknown" : 0,
-      "total" : 1
+      "total" : 2
     },
     "items" : [ {
+      "uid" : "1286301e279af9b0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1722201266086,
+        "stop" : 1722201266774,
+        "duration" : 688
+      }
+    }, {
       "uid" : "99efb52b3d9ec47a",
       "status" : "passed",
       "time" : {
@@ -120,11 +152,19 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 1,
+      "passed" : 2,
       "unknown" : 0,
-      "total" : 1
+      "total" : 2
     },
     "items" : [ {
+      "uid" : "7212e267e97d76af",
+      "status" : "passed",
+      "time" : {
+        "start" : 1722201267211,
+        "stop" : 1722201267962,
+        "duration" : 751
+      }
+    }, {
       "uid" : "cbba9cab78cb750d",
       "status" : "passed",
       "time" : {
@@ -177,11 +217,19 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 1,
+      "passed" : 2,
       "unknown" : 0,
-      "total" : 1
+      "total" : 2
     },
     "items" : [ {
+      "uid" : "5cd52b4a01404836",
+      "status" : "passed",
+      "time" : {
+        "start" : 1722201279275,
+        "stop" : 1722201289258,
+        "duration" : 9983
+      }
+    }, {
       "uid" : "b5c9b6fd50c43fb7",
       "status" : "passed",
       "time" : {

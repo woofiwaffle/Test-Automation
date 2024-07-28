@@ -1,12 +1,12 @@
 {
-  "uid" : "32ec3fbcde7710f3",
+  "uid" : "71919f0d44896bce",
   "name" : "test_login_button_present_and_clickable",
   "fullName" : "tests.test_api.TestAPI#test_login_button_present_and_clickable",
   "historyId" : "25443eff4c7687799365aef29d785675",
   "time" : {
-    "start" : 1722200630800,
-    "stop" : 1722200634155,
-    "duration" : 3355
+    "start" : 1722201268398,
+    "stop" : 1722201270595,
+    "duration" : 2197
   },
   "status" : "passed",
   "flaky" : false,
@@ -14,9 +14,9 @@
   "beforeStages" : [ {
     "name" : "driver",
     "time" : {
-      "start" : 1722200630415,
-      "stop" : 1722200630800,
-      "duration" : 385
+      "start" : 1722201268018,
+      "stop" : 1722201268398,
+      "duration" : 380
     },
     "status" : "passed",
     "steps" : [ ],
@@ -32,9 +32,9 @@
     "steps" : [ {
       "name" : "Verify that login button is present and clickable",
       "time" : {
-        "start" : 1722200630801,
-        "stop" : 1722200634155,
-        "duration" : 3354
+        "start" : 1722201268398,
+        "stop" : 1722201270595,
+        "duration" : 2197
       },
       "status" : "passed",
       "steps" : [ ],
@@ -55,9 +55,9 @@
   "afterStages" : [ {
     "name" : "driver::0",
     "time" : {
-      "start" : 1722200634156,
-      "stop" : 1722200634214,
-      "duration" : 58
+      "start" : 1722201270595,
+      "stop" : 1722201270652,
+      "duration" : 57
     },
     "status" : "passed",
     "steps" : [ ],
@@ -82,7 +82,7 @@
     "value" : "TestAPI"
   }, {
     "name" : "host",
-    "value" : "5b6864de7456"
+    "value" : "33265c12dbce"
   }, {
     "name" : "thread",
     "value" : "1-MainThread"
@@ -107,8 +107,27 @@
     "severity" : "normal",
     "retries" : [ ],
     "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 2,
+        "unknown" : 0,
+        "total" : 2
+      },
+      "items" : [ {
+        "uid" : "32ec3fbcde7710f3",
+        "status" : "passed",
+        "time" : {
+          "start" : 1722200630800,
+          "stop" : 1722200634155,
+          "duration" : 3355
+        }
+      } ]
+    },
     "tags" : [ "@pytest.mark.usefixtures('driver')" ]
   },
-  "source" : "32ec3fbcde7710f3.json",
+  "source" : "71919f0d44896bce.json",
   "parameterValues" : [ ]
 }

@@ -1,26 +1,5 @@
 {
   "uid" : "4b4757e66a1912dae1a509f688f20b0f",
-  "children" : [ {
-    "name" : "Test defects",
-    "children" : [ {
-      "name" : "AttributeError: type object 'Links' has no attribute 'Host'. Did you mean: 'HOST'?",
-      "children" : [ {
-        "name" : "test_accessibility",
-        "uid" : "42181c090772887a",
-        "parentUid" : "95cfd3aa6f1555990a4cebecad900d67",
-        "status" : "broken",
-        "time" : {
-          "start" : 1722200627832,
-          "stop" : 1722200627833,
-          "duration" : 1
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      } ],
-      "uid" : "95cfd3aa6f1555990a4cebecad900d67"
-    } ],
-    "uid" : "bdbf199525818fae7a8651db9eafe741"
-  } ],
+  "children" : [ ],
   "name" : "categories"
 }
