@@ -10,7 +10,7 @@ class TestAccessibility:
     @allure.description("Test the accessibility of the webpage using Axe")
     @allure.step("Navigating to the webpage")
     def test_accessibility(self):
-        self.driver.get(Links.Host)
+        self.driver.get(Links.HOST)
 
         axe = Axe(self.driver)
         axe.inject()
