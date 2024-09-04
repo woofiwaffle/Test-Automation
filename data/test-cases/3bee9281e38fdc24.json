@@ -1,12 +1,12 @@
 {
-  "uid" : "b54ae13791f76c6e",
-  "name" : "test_status_code",
-  "fullName" : "tests.test_api.TestAPI#test_status_code",
-  "historyId" : "3bdcf8c3649a190669b8f2511f6cec95",
+  "uid" : "3bee9281e38fdc24",
+  "name" : "test_login_button_present_and_clickable",
+  "fullName" : "tests.test_api.TestAPI#test_login_button_present_and_clickable",
+  "historyId" : "25443eff4c7687799365aef29d785675",
   "time" : {
-    "start" : 1725474217127,
-    "stop" : 1725474218066,
-    "duration" : 939
+    "start" : 1725475233651,
+    "stop" : 1725475235812,
+    "duration" : 2161
   },
   "status" : "passed",
   "flaky" : false,
@@ -14,9 +14,9 @@
   "beforeStages" : [ {
     "name" : "driver",
     "time" : {
-      "start" : 1725474216798,
-      "stop" : 1725474217127,
-      "duration" : 329
+      "start" : 1725475233326,
+      "stop" : 1725475233650,
+      "duration" : 324
     },
     "status" : "passed",
     "steps" : [ ],
@@ -30,11 +30,11 @@
   "testStage" : {
     "status" : "passed",
     "steps" : [ {
-      "name" : "Check HTTP status code of the main page",
+      "name" : "Verify that login button is present and clickable",
       "time" : {
-        "start" : 1725474217127,
-        "stop" : 1725474218066,
-        "duration" : 939
+        "start" : 1725475233651,
+        "stop" : 1725475235812,
+        "duration" : 2161
       },
       "status" : "passed",
       "steps" : [ ],
@@ -55,9 +55,9 @@
   "afterStages" : [ {
     "name" : "driver::0",
     "time" : {
-      "start" : 1725474218066,
-      "stop" : 1725474218120,
-      "duration" : 54
+      "start" : 1725475235813,
+      "stop" : 1725475235868,
+      "duration" : 55
     },
     "status" : "passed",
     "steps" : [ ],
@@ -82,7 +82,7 @@
     "value" : "TestAPI"
   }, {
     "name" : "host",
-    "value" : "e10f90429fcf"
+    "value" : "7d9caf721909"
   }, {
     "name" : "thread",
     "value" : "1-MainThread"
@@ -112,38 +112,46 @@
         "failed" : 0,
         "broken" : 0,
         "skipped" : 0,
-        "passed" : 4,
+        "passed" : 5,
         "unknown" : 0,
-        "total" : 4
+        "total" : 5
       },
       "items" : [ {
-        "uid" : "c7cd026ba8c7789a",
+        "uid" : "1487b8dac3acc8de",
         "status" : "passed",
         "time" : {
-          "start" : 1722266247794,
-          "stop" : 1722266248743,
-          "duration" : 949
+          "start" : 1725474219825,
+          "stop" : 1725474222740,
+          "duration" : 2915
         }
       }, {
-        "uid" : "1286301e279af9b0",
+        "uid" : "2ee8055f010a1479",
         "status" : "passed",
         "time" : {
-          "start" : 1722201266086,
-          "stop" : 1722201266774,
-          "duration" : 688
+          "start" : 1722266250360,
+          "stop" : 1722266253620,
+          "duration" : 3260
         }
       }, {
-        "uid" : "99efb52b3d9ec47a",
+        "uid" : "71919f0d44896bce",
         "status" : "passed",
         "time" : {
-          "start" : 1722200628330,
-          "stop" : 1722200629116,
-          "duration" : 786
+          "start" : 1722201268398,
+          "stop" : 1722201270595,
+          "duration" : 2197
+        }
+      }, {
+        "uid" : "32ec3fbcde7710f3",
+        "status" : "passed",
+        "time" : {
+          "start" : 1722200630800,
+          "stop" : 1722200634155,
+          "duration" : 3355
         }
       } ]
     },
     "tags" : [ "@pytest.mark.usefixtures('driver')" ]
   },
-  "source" : "b54ae13791f76c6e.json",
+  "source" : "3bee9281e38fdc24.json",
   "parameterValues" : [ ]
 }

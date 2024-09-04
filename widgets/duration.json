@@ -1,61 +1,61 @@
 [ {
-  "uid" : "3d35d749a41ac824",
-  "name" : "Change profile name",
-  "time" : {
-    "start" : 1725474231969,
-    "stop" : 1725474240128,
-    "duration" : 8159
-  },
-  "status" : "broken",
-  "severity" : "critical"
-}, {
-  "uid" : "1487b8dac3acc8de",
-  "name" : "test_login_button_present_and_clickable",
-  "time" : {
-    "start" : 1725474219825,
-    "stop" : 1725474222740,
-    "duration" : 2915
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "4bc838b167a84454",
-  "name" : "Get claim data",
-  "time" : {
-    "start" : 1725474223131,
-    "stop" : 1725474231580,
-    "duration" : 8449
-  },
-  "status" : "passed",
-  "severity" : "critical"
-}, {
-  "uid" : "b54ae13791f76c6e",
-  "name" : "test_status_code",
-  "time" : {
-    "start" : 1725474217127,
-    "stop" : 1725474218066,
-    "duration" : 939
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "2d66aed604cdb959",
+  "uid" : "4786695fe299dda2",
   "name" : "test_accessibility",
   "time" : {
-    "start" : 1725474214295,
-    "stop" : 1725474216711,
-    "duration" : 2416
+    "start" : 1725475229299,
+    "stop" : 1725475231026,
+    "duration" : 1727
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "d70f4f09ed2893fd",
-  "name" : "test_content_type",
+  "uid" : "3a555452d141fc9a",
+  "name" : "test_status_code",
   "time" : {
-    "start" : 1725474218451,
-    "stop" : 1725474219436,
-    "duration" : 985
+    "start" : 1725475231439,
+    "stop" : 1725475232142,
+    "duration" : 703
   },
   "status" : "passed",
   "severity" : "normal"
+}, {
+  "uid" : "a7f61ae1abadf1d6",
+  "name" : "Change profile name",
+  "time" : {
+    "start" : 1725475244257,
+    "stop" : 1725475254118,
+    "duration" : 9861
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "3bee9281e38fdc24",
+  "name" : "test_login_button_present_and_clickable",
+  "time" : {
+    "start" : 1725475233651,
+    "stop" : 1725475235812,
+    "duration" : 2161
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "5ddb8a24cb46aca7",
+  "name" : "test_content_type",
+  "time" : {
+    "start" : 1725475232521,
+    "stop" : 1725475233270,
+    "duration" : 749
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "38da9b611c64204c",
+  "name" : "Get claim data",
+  "time" : {
+    "start" : 1725475236192,
+    "stop" : 1725475243870,
+    "duration" : 7678
+  },
+  "status" : "passed",
+  "severity" : "critical"
 } ]
