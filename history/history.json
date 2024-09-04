@@ -4,11 +4,19 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 3,
+      "passed" : 4,
       "unknown" : 0,
-      "total" : 3
+      "total" : 4
     },
     "items" : [ {
+      "uid" : "1487b8dac3acc8de",
+      "status" : "passed",
+      "time" : {
+        "start" : 1725474219825,
+        "stop" : 1725474222740,
+        "duration" : 2915
+      }
+    }, {
       "uid" : "2ee8055f010a1479",
       "status" : "passed",
       "time" : {
@@ -39,11 +47,19 @@
       "failed" : 0,
       "broken" : 1,
       "skipped" : 0,
-      "passed" : 2,
+      "passed" : 3,
       "unknown" : 0,
-      "total" : 3
+      "total" : 4
     },
     "items" : [ {
+      "uid" : "2d66aed604cdb959",
+      "status" : "passed",
+      "time" : {
+        "start" : 1725474214295,
+        "stop" : 1725474216711,
+        "duration" : 2416
+      }
+    }, {
       "uid" : "4bbaafb8e5769a06",
       "status" : "passed",
       "time" : {
@@ -95,11 +111,19 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 3,
+      "passed" : 4,
       "unknown" : 0,
-      "total" : 3
+      "total" : 4
     },
     "items" : [ {
+      "uid" : "4bc838b167a84454",
+      "status" : "passed",
+      "time" : {
+        "start" : 1725474223131,
+        "stop" : 1725474231580,
+        "duration" : 8449
+      }
+    }, {
       "uid" : "5191ee2a3c8d4147",
       "status" : "passed",
       "time" : {
@@ -149,11 +173,19 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 3,
+      "passed" : 4,
       "unknown" : 0,
-      "total" : 3
+      "total" : 4
     },
     "items" : [ {
+      "uid" : "b54ae13791f76c6e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1725474217127,
+        "stop" : 1725474218066,
+        "duration" : 939
+      }
+    }, {
       "uid" : "c7cd026ba8c7789a",
       "status" : "passed",
       "time" : {
@@ -184,11 +216,19 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 3,
+      "passed" : 4,
       "unknown" : 0,
-      "total" : 3
+      "total" : 4
     },
     "items" : [ {
+      "uid" : "d70f4f09ed2893fd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1725474218451,
+        "stop" : 1725474219436,
+        "duration" : 985
+      }
+    }, {
       "uid" : "ff8f4403f28aa1cf",
       "status" : "passed",
       "time" : {
@@ -255,13 +295,22 @@
   "4b56d7b47a7c073b85147230e50811d8" : {
     "statistic" : {
       "failed" : 0,
-      "broken" : 0,
+      "broken" : 1,
       "skipped" : 0,
       "passed" : 3,
       "unknown" : 0,
-      "total" : 3
+      "total" : 4
     },
     "items" : [ {
+      "uid" : "3d35d749a41ac824",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.ElementClickInterceptedException: Message: element click intercepted: Element <button data-v-10d463b7=\"\" data-v-6653c066=\"\" type=\"submit\" class=\"oxd-button oxd-button--medium oxd-button--secondary orangehrm-left-space\">...</button> is not clickable at point (1789, 709). Other element would receive the click: <form data-v-d5bfe35b=\"\" data-v-6653c066=\"\" class=\"oxd-form\" novalidate=\"\">...</form>\n  (Session info: headless chrome=112.0.5615.165)",
+      "time" : {
+        "start" : 1725474231969,
+        "stop" : 1725474240128,
+        "duration" : 8159
+      }
+    }, {
       "uid" : "92dec730ee404463",
       "status" : "passed",
       "time" : {

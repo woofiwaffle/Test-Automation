@@ -1,24 +1,22 @@
 {
-  "uid" : "4bbaafb8e5769a06",
-  "name" : "test_accessibility",
-  "fullName" : "tests.test_accessibility.TestAccessibility#test_accessibility",
-  "historyId" : "4d4cfcb8560f4f8c8ecef9f0ad195733",
+  "uid" : "d70f4f09ed2893fd",
+  "name" : "test_content_type",
+  "fullName" : "tests.test_api.TestAPI#test_content_type",
+  "historyId" : "cddd34c0c208368d12b7bf8b45d7b399",
   "time" : {
-    "start" : 1722266244729,
-    "stop" : 1722266247366,
-    "duration" : 2637
+    "start" : 1725474218451,
+    "stop" : 1725474219436,
+    "duration" : 985
   },
-  "description" : "Test the accessibility of the webpage using Axe",
-  "descriptionHtml" : "<p>Test the accessibility of the webpage using Axe</p>\n",
   "status" : "passed",
   "flaky" : false,
   "newFailed" : false,
   "beforeStages" : [ {
     "name" : "driver",
     "time" : {
-      "start" : 1722266244334,
-      "stop" : 1722266244729,
-      "duration" : 395
+      "start" : 1725474218122,
+      "stop" : 1725474218451,
+      "duration" : 329
     },
     "status" : "passed",
     "steps" : [ ],
@@ -30,14 +28,13 @@
     "hasContent" : false
   } ],
   "testStage" : {
-    "description" : "Test the accessibility of the webpage using Axe",
     "status" : "passed",
     "steps" : [ {
-      "name" : "Navigating to the webpage",
+      "name" : "Verify Content-Type header of the main page response",
       "time" : {
-        "start" : 1722266244730,
-        "stop" : 1722266247366,
-        "duration" : 2636
+        "start" : 1725474218452,
+        "stop" : 1725474219436,
+        "duration" : 984
       },
       "status" : "passed",
       "steps" : [ ],
@@ -58,9 +55,9 @@
   "afterStages" : [ {
     "name" : "driver::0",
     "time" : {
-      "start" : 1722266247366,
-      "stop" : 1722266247451,
-      "duration" : 85
+      "start" : 1725474219436,
+      "stop" : 1725474219491,
+      "duration" : 55
     },
     "status" : "passed",
     "steps" : [ ],
@@ -79,13 +76,13 @@
     "value" : "tests"
   }, {
     "name" : "suite",
-    "value" : "test_accessibility"
+    "value" : "test_api"
   }, {
     "name" : "subSuite",
-    "value" : "TestAccessibility"
+    "value" : "TestAPI"
   }, {
     "name" : "host",
-    "value" : "c3e6d0c409bd"
+    "value" : "e10f90429fcf"
   }, {
     "name" : "thread",
     "value" : "1-MainThread"
@@ -97,7 +94,7 @@
     "value" : "cpython3"
   }, {
     "name" : "package",
-    "value" : "tests.test_accessibility"
+    "value" : "tests.test_api"
   }, {
     "name" : "resultFormat",
     "value" : "allure2"
@@ -113,33 +110,40 @@
     "history" : {
       "statistic" : {
         "failed" : 0,
-        "broken" : 1,
+        "broken" : 0,
         "skipped" : 0,
-        "passed" : 2,
+        "passed" : 4,
         "unknown" : 0,
-        "total" : 3
+        "total" : 4
       },
       "items" : [ {
-        "uid" : "3698310b58edf5c9",
+        "uid" : "ff8f4403f28aa1cf",
         "status" : "passed",
         "time" : {
-          "start" : 1722201263894,
-          "stop" : 1722201265610,
-          "duration" : 1716
+          "start" : 1722266249131,
+          "stop" : 1722266249962,
+          "duration" : 831
         }
       }, {
-        "uid" : "42181c090772887a",
-        "status" : "broken",
-        "statusDetails" : "AttributeError: type object 'Links' has no attribute 'Host'. Did you mean: 'HOST'?",
+        "uid" : "7212e267e97d76af",
+        "status" : "passed",
         "time" : {
-          "start" : 1722200627832,
-          "stop" : 1722200627833,
-          "duration" : 1
+          "start" : 1722201267211,
+          "stop" : 1722201267962,
+          "duration" : 751
+        }
+      }, {
+        "uid" : "cbba9cab78cb750d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1722200629555,
+          "stop" : 1722200630358,
+          "duration" : 803
         }
       } ]
     },
     "tags" : [ "@pytest.mark.usefixtures('driver')" ]
   },
-  "source" : "4bbaafb8e5769a06.json",
+  "source" : "d70f4f09ed2893fd.json",
   "parameterValues" : [ ]
 }
