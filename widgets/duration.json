@@ -1,80 +1,60 @@
 [ {
-  "uid" : "7a71df620b4a602e",
-  "name" : "test_login_button_present_and_clickable",
-  "time" : {
-    "start" : 1726080880040,
-    "stop" : 1726080882187,
-    "duration" : 2147
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "268e194fdd265aa7",
+  "uid" : "6638040c3a768819",
   "name" : "Get claim data",
   "time" : {
-    "start" : 1726080882568,
-    "stop" : 1726080890204,
-    "duration" : 7636
+    "start" : 1726082178744,
+    "stop" : 1726082188748,
+    "duration" : 10004
   },
   "status" : "passed",
   "severity" : "critical"
 }, {
-  "uid" : "3f419e3a85cd2991",
-  "name" : "Change profile name",
-  "time" : {
-    "start" : 1726080890592,
-    "stop" : 1726080900320,
-    "duration" : 9728
-  },
-  "status" : "passed",
-  "severity" : "critical"
-}, {
-  "uid" : "638c88ed46dc4b81",
-  "name" : "test_status_code",
-  "time" : {
-    "start" : 1726080877891,
-    "stop" : 1726080878560,
-    "duration" : 669
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "21dca0fb1fbc96d9",
+  "uid" : "3f472f0941cec8a5",
   "name" : "test_accessibility",
   "time" : {
-    "start" : 1726080875790,
-    "stop" : 1726080877476,
-    "duration" : 1686
+    "start" : 1726082170962,
+    "stop" : 1726082172928,
+    "duration" : 1966
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "944ea6c3650b9087",
-  "name" : "test_xss[https://opensource-demo.orangehrmlive.com/web/index.php]",
+  "uid" : "407e834fb94d1ea9",
+  "name" : "Change profile name",
   "time" : {
-    "start" : 1726080900747,
-    "stop" : 1726080900747,
-    "duration" : 0
+    "start" : 1726082189136,
+    "stop" : 1726082212025,
+    "duration" : 22889
   },
   "status" : "broken",
-  "severity" : "normal"
+  "severity" : "critical"
 }, {
-  "uid" : "27b9cc3b48fbe0db",
-  "name" : "test_sql_injection[https://opensource-demo.orangehrmlive.com/web/index.php]",
-  "time" : {
-    "start" : 1726080900379,
-    "stop" : 1726080900379,
-    "duration" : 0
-  },
-  "status" : "broken",
-  "severity" : "normal"
-}, {
-  "uid" : "699715796ea695db",
+  "uid" : "e56f58c4b64a5790",
   "name" : "test_content_type",
   "time" : {
-    "start" : 1726080878941,
-    "stop" : 1726080879661,
-    "duration" : 720
+    "start" : 1726082174724,
+    "stop" : 1726082175599,
+    "duration" : 875
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "6631f79402963e4f",
+  "name" : "test_login_button_present_and_clickable",
+  "time" : {
+    "start" : 1726082175982,
+    "stop" : 1726082178350,
+    "duration" : 2368
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "36715d93f08571ac",
+  "name" : "test_status_code",
+  "time" : {
+    "start" : 1726082173345,
+    "stop" : 1726082174344,
+    "duration" : 999
   },
   "status" : "passed",
   "severity" : "normal"

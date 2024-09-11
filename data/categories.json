@@ -3,35 +3,22 @@
   "children" : [ {
     "name" : "Test defects",
     "children" : [ {
-      "name" : "AttributeError: 'NoneType' object has no attribute 'driver'",
+      "name" : "selenium.common.exceptions.TimeoutException: Message:",
       "children" : [ {
-        "name" : "test_sql_injection[https://opensource-demo.orangehrmlive.com/web/index.php]",
-        "uid" : "27b9cc3b48fbe0db",
-        "parentUid" : "ec81201e24be6b7d198ca42d492e711a",
+        "name" : "Change profile name",
+        "uid" : "407e834fb94d1ea9",
+        "parentUid" : "31bb78a6a95ede3f78b260ed048910d8",
         "status" : "broken",
         "time" : {
-          "start" : 1726080900379,
-          "stop" : 1726080900379,
-          "duration" : 0
+          "start" : 1726082189136,
+          "stop" : 1726082212025,
+          "duration" : 22889
         },
         "flaky" : false,
         "newFailed" : false,
-        "parameters" : [ "'https://opensource-demo.orangehrmlive.com/web/index.php'" ]
-      }, {
-        "name" : "test_xss[https://opensource-demo.orangehrmlive.com/web/index.php]",
-        "uid" : "944ea6c3650b9087",
-        "parentUid" : "ec81201e24be6b7d198ca42d492e711a",
-        "status" : "broken",
-        "time" : {
-          "start" : 1726080900747,
-          "stop" : 1726080900747,
-          "duration" : 0
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ "'https://opensource-demo.orangehrmlive.com/web/index.php'" ]
+        "parameters" : [ ]
       } ],
-      "uid" : "ec81201e24be6b7d198ca42d492e711a"
+      "uid" : "31bb78a6a95ede3f78b260ed048910d8"
     } ],
     "uid" : "bdbf199525818fae7a8651db9eafe741"
   } ],
