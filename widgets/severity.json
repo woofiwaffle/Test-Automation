@@ -1,61 +1,81 @@
 [ {
-  "uid" : "36715d93f08571ac",
-  "name" : "test_status_code",
-  "time" : {
-    "start" : 1726082173345,
-    "stop" : 1726082174344,
-    "duration" : 999
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "e56f58c4b64a5790",
-  "name" : "test_content_type",
-  "time" : {
-    "start" : 1726082174724,
-    "stop" : 1726082175599,
-    "duration" : 875
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "3f472f0941cec8a5",
-  "name" : "test_accessibility",
-  "time" : {
-    "start" : 1726082170962,
-    "stop" : 1726082172928,
-    "duration" : 1966
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "407e834fb94d1ea9",
-  "name" : "Change profile name",
-  "time" : {
-    "start" : 1726082189136,
-    "stop" : 1726082212025,
-    "duration" : 22889
-  },
-  "status" : "broken",
-  "severity" : "critical"
-}, {
-  "uid" : "6631f79402963e4f",
-  "name" : "test_login_button_present_and_clickable",
-  "time" : {
-    "start" : 1726082175982,
-    "stop" : 1726082178350,
-    "duration" : 2368
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "6638040c3a768819",
+  "uid" : "e7af8bd2d2f04cd2",
   "name" : "Get claim data",
   "time" : {
-    "start" : 1726082178744,
-    "stop" : 1726082188748,
-    "duration" : 10004
+    "start" : 1726083328174,
+    "stop" : 1726083335792,
+    "duration" : 7618
   },
   "status" : "passed",
   "severity" : "critical"
+}, {
+  "uid" : "625262eb88332775",
+  "name" : "test_xss[https://opensource-demo.orangehrmlive.com/web/index.php]",
+  "time" : {
+    "start" : 1726083320574,
+    "stop" : 1726083320574,
+    "duration" : 0
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "645ceabadf5425ee",
+  "name" : "test_sql_injection[https://opensource-demo.orangehrmlive.com/web/index.php]",
+  "time" : {
+    "start" : 1726083320136,
+    "stop" : 1726083320136,
+    "duration" : 0
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "b9ec5243b9a794f0",
+  "name" : "test_status_code",
+  "time" : {
+    "start" : 1726083323376,
+    "stop" : 1726083324132,
+    "duration" : 756
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "6a41594b66190751",
+  "name" : "test_content_type",
+  "time" : {
+    "start" : 1726083324513,
+    "stop" : 1726083325238,
+    "duration" : 725
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "24a451c88ac3492a",
+  "name" : "Change profile name",
+  "time" : {
+    "start" : 1726083336181,
+    "stop" : 1726083346124,
+    "duration" : 9943
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "7540422d1c6d750e",
+  "name" : "test_login_button_present_and_clickable",
+  "time" : {
+    "start" : 1726083325623,
+    "stop" : 1726083327790,
+    "duration" : 2167
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a95ccfa2a47fec0c",
+  "name" : "test_accessibility",
+  "time" : {
+    "start" : 1726083321231,
+    "stop" : 1726083322987,
+    "duration" : 1756
+  },
+  "status" : "passed",
+  "severity" : "normal"
 } ]

@@ -1,24 +1,22 @@
 {
-  "uid" : "3f472f0941cec8a5",
-  "name" : "test_accessibility",
-  "fullName" : "tests.test_accessibility.TestAccessibility#test_accessibility",
-  "historyId" : "4d4cfcb8560f4f8c8ecef9f0ad195733",
+  "uid" : "7540422d1c6d750e",
+  "name" : "test_login_button_present_and_clickable",
+  "fullName" : "tests.test_api.TestAPI#test_login_button_present_and_clickable",
+  "historyId" : "25443eff4c7687799365aef29d785675",
   "time" : {
-    "start" : 1726082170962,
-    "stop" : 1726082172928,
-    "duration" : 1966
+    "start" : 1726083325623,
+    "stop" : 1726083327790,
+    "duration" : 2167
   },
-  "description" : "Test the accessibility of the webpage using Axe",
-  "descriptionHtml" : "<p>Test the accessibility of the webpage using Axe</p>\n",
   "status" : "passed",
   "flaky" : false,
   "newFailed" : false,
   "beforeStages" : [ {
     "name" : "driver",
     "time" : {
-      "start" : 1726082170587,
-      "stop" : 1726082170961,
-      "duration" : 374
+      "start" : 1726083325295,
+      "stop" : 1726083325622,
+      "duration" : 327
     },
     "status" : "passed",
     "steps" : [ ],
@@ -30,14 +28,13 @@
     "hasContent" : false
   } ],
   "testStage" : {
-    "description" : "Test the accessibility of the webpage using Axe",
     "status" : "passed",
     "steps" : [ {
-      "name" : "Navigating to the webpage",
+      "name" : "Verify that login button is present and clickable",
       "time" : {
-        "start" : 1726082170962,
-        "stop" : 1726082172928,
-        "duration" : 1966
+        "start" : 1726083325623,
+        "stop" : 1726083327790,
+        "duration" : 2167
       },
       "status" : "passed",
       "steps" : [ ],
@@ -58,9 +55,9 @@
   "afterStages" : [ {
     "name" : "driver::0",
     "time" : {
-      "start" : 1726082172928,
-      "stop" : 1726082173014,
-      "duration" : 86
+      "start" : 1726083327790,
+      "stop" : 1726083327846,
+      "duration" : 56
     },
     "status" : "passed",
     "steps" : [ ],
@@ -79,13 +76,13 @@
     "value" : "tests"
   }, {
     "name" : "suite",
-    "value" : "test_accessibility"
+    "value" : "test_api"
   }, {
     "name" : "subSuite",
-    "value" : "TestAccessibility"
+    "value" : "TestAPI"
   }, {
     "name" : "host",
-    "value" : "8d068e91bca6"
+    "value" : "61c3eb4f5818"
   }, {
     "name" : "thread",
     "value" : "1-MainThread"
@@ -97,7 +94,7 @@
     "value" : "cpython3"
   }, {
     "name" : "package",
-    "value" : "tests.test_accessibility"
+    "value" : "tests.test_api"
   }, {
     "name" : "resultFormat",
     "value" : "allure2"
@@ -113,65 +110,72 @@
     "history" : {
       "statistic" : {
         "failed" : 0,
-        "broken" : 1,
+        "broken" : 0,
         "skipped" : 0,
-        "passed" : 6,
+        "passed" : 8,
         "unknown" : 0,
-        "total" : 7
+        "total" : 8
       },
       "items" : [ {
-        "uid" : "21dca0fb1fbc96d9",
+        "uid" : "6631f79402963e4f",
         "status" : "passed",
         "time" : {
-          "start" : 1726080875790,
-          "stop" : 1726080877476,
-          "duration" : 1686
+          "start" : 1726082175982,
+          "stop" : 1726082178350,
+          "duration" : 2368
         }
       }, {
-        "uid" : "4786695fe299dda2",
+        "uid" : "7a71df620b4a602e",
         "status" : "passed",
         "time" : {
-          "start" : 1725475229299,
-          "stop" : 1725475231026,
-          "duration" : 1727
+          "start" : 1726080880040,
+          "stop" : 1726080882187,
+          "duration" : 2147
         }
       }, {
-        "uid" : "2d66aed604cdb959",
+        "uid" : "3bee9281e38fdc24",
         "status" : "passed",
         "time" : {
-          "start" : 1725474214295,
-          "stop" : 1725474216711,
-          "duration" : 2416
+          "start" : 1725475233651,
+          "stop" : 1725475235812,
+          "duration" : 2161
         }
       }, {
-        "uid" : "4bbaafb8e5769a06",
+        "uid" : "1487b8dac3acc8de",
         "status" : "passed",
         "time" : {
-          "start" : 1722266244729,
-          "stop" : 1722266247366,
-          "duration" : 2637
+          "start" : 1725474219825,
+          "stop" : 1725474222740,
+          "duration" : 2915
         }
       }, {
-        "uid" : "3698310b58edf5c9",
+        "uid" : "2ee8055f010a1479",
         "status" : "passed",
         "time" : {
-          "start" : 1722201263894,
-          "stop" : 1722201265610,
-          "duration" : 1716
+          "start" : 1722266250360,
+          "stop" : 1722266253620,
+          "duration" : 3260
         }
       }, {
-        "uid" : "42181c090772887a",
-        "status" : "broken",
-        "statusDetails" : "AttributeError: type object 'Links' has no attribute 'Host'. Did you mean: 'HOST'?",
+        "uid" : "71919f0d44896bce",
+        "status" : "passed",
         "time" : {
-          "start" : 1722200627832,
-          "stop" : 1722200627833,
-          "duration" : 1
+          "start" : 1722201268398,
+          "stop" : 1722201270595,
+          "duration" : 2197
+        }
+      }, {
+        "uid" : "32ec3fbcde7710f3",
+        "status" : "passed",
+        "time" : {
+          "start" : 1722200630800,
+          "stop" : 1722200634155,
+          "duration" : 3355
         }
       } ]
     },
     "tags" : [ "@pytest.mark.usefixtures('driver')" ]
   },
-  "source" : "3f472f0941cec8a5.json",
+  "source" : "7540422d1c6d750e.json",
   "parameterValues" : [ ]
 }

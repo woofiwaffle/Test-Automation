@@ -1,12 +1,12 @@
 {
-  "uid" : "36715d93f08571ac",
+  "uid" : "b9ec5243b9a794f0",
   "name" : "test_status_code",
   "fullName" : "tests.test_api.TestAPI#test_status_code",
   "historyId" : "3bdcf8c3649a190669b8f2511f6cec95",
   "time" : {
-    "start" : 1726082173345,
-    "stop" : 1726082174344,
-    "duration" : 999
+    "start" : 1726083323376,
+    "stop" : 1726083324132,
+    "duration" : 756
   },
   "status" : "passed",
   "flaky" : false,
@@ -14,9 +14,9 @@
   "beforeStages" : [ {
     "name" : "driver",
     "time" : {
-      "start" : 1726082173015,
-      "stop" : 1726082173345,
-      "duration" : 330
+      "start" : 1726083323045,
+      "stop" : 1726083323376,
+      "duration" : 331
     },
     "status" : "passed",
     "steps" : [ ],
@@ -32,9 +32,9 @@
     "steps" : [ {
       "name" : "Check HTTP status code of the main page",
       "time" : {
-        "start" : 1726082173346,
-        "stop" : 1726082174344,
-        "duration" : 998
+        "start" : 1726083323377,
+        "stop" : 1726083324132,
+        "duration" : 755
       },
       "status" : "passed",
       "steps" : [ ],
@@ -55,8 +55,8 @@
   "afterStages" : [ {
     "name" : "driver::0",
     "time" : {
-      "start" : 1726082174345,
-      "stop" : 1726082174399,
+      "start" : 1726083324132,
+      "stop" : 1726083324186,
       "duration" : 54
     },
     "status" : "passed",
@@ -82,7 +82,7 @@
     "value" : "TestAPI"
   }, {
     "name" : "host",
-    "value" : "8d068e91bca6"
+    "value" : "61c3eb4f5818"
   }, {
     "name" : "thread",
     "value" : "1-MainThread"
@@ -112,11 +112,19 @@
         "failed" : 0,
         "broken" : 0,
         "skipped" : 0,
-        "passed" : 7,
+        "passed" : 8,
         "unknown" : 0,
-        "total" : 7
+        "total" : 8
       },
       "items" : [ {
+        "uid" : "36715d93f08571ac",
+        "status" : "passed",
+        "time" : {
+          "start" : 1726082173345,
+          "stop" : 1726082174344,
+          "duration" : 999
+        }
+      }, {
         "uid" : "638c88ed46dc4b81",
         "status" : "passed",
         "time" : {
@@ -168,6 +176,6 @@
     },
     "tags" : [ "@pytest.mark.usefixtures('driver')" ]
   },
-  "source" : "36715d93f08571ac.json",
+  "source" : "b9ec5243b9a794f0.json",
   "parameterValues" : [ ]
 }

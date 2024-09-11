@@ -4,11 +4,19 @@
       "failed" : 0,
       "broken" : 1,
       "skipped" : 0,
-      "passed" : 6,
+      "passed" : 7,
       "unknown" : 0,
-      "total" : 7
+      "total" : 8
     },
     "items" : [ {
+      "uid" : "a95ccfa2a47fec0c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1726083321231,
+        "stop" : 1726083322987,
+        "duration" : 1756
+      }
+    }, {
       "uid" : "3f472f0941cec8a5",
       "status" : "passed",
       "time" : {
@@ -92,11 +100,19 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 7,
+      "passed" : 8,
       "unknown" : 0,
-      "total" : 7
+      "total" : 8
     },
     "items" : [ {
+      "uid" : "b9ec5243b9a794f0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1726083323376,
+        "stop" : 1726083324132,
+        "duration" : 756
+      }
+    }, {
       "uid" : "36715d93f08571ac",
       "status" : "passed",
       "time" : {
@@ -159,11 +175,19 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 7,
+      "passed" : 8,
       "unknown" : 0,
-      "total" : 7
+      "total" : 8
     },
     "items" : [ {
+      "uid" : "6a41594b66190751",
+      "status" : "passed",
+      "time" : {
+        "start" : 1726083324513,
+        "stop" : 1726083325238,
+        "duration" : 725
+      }
+    }, {
       "uid" : "e56f58c4b64a5790",
       "status" : "passed",
       "time" : {
@@ -284,11 +308,19 @@
       "failed" : 0,
       "broken" : 2,
       "skipped" : 0,
-      "passed" : 5,
+      "passed" : 6,
       "unknown" : 0,
-      "total" : 7
+      "total" : 8
     },
     "items" : [ {
+      "uid" : "24a451c88ac3492a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1726083336181,
+        "stop" : 1726083346124,
+        "duration" : 9943
+      }
+    }, {
       "uid" : "407e834fb94d1ea9",
       "status" : "broken",
       "statusDetails" : "selenium.common.exceptions.TimeoutException: Message:",
@@ -353,11 +385,19 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 7,
+      "passed" : 8,
       "unknown" : 0,
-      "total" : 7
+      "total" : 8
     },
     "items" : [ {
+      "uid" : "7540422d1c6d750e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1726083325623,
+        "stop" : 1726083327790,
+        "duration" : 2167
+      }
+    }, {
       "uid" : "6631f79402963e4f",
       "status" : "passed",
       "time" : {
@@ -415,16 +455,44 @@
       }
     } ]
   },
+  "2c7a5ca969200715068ad642786bea45" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "625262eb88332775",
+      "status" : "broken",
+      "statusDetails" : "AttributeError: 'NoneType' object has no attribute 'driver'",
+      "time" : {
+        "start" : 1726083320574,
+        "stop" : 1726083320574,
+        "duration" : 0
+      }
+    } ]
+  },
   "188c11e8a8ac974d850d2dbf0f533086" : {
     "statistic" : {
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 7,
+      "passed" : 8,
       "unknown" : 0,
-      "total" : 7
+      "total" : 8
     },
     "items" : [ {
+      "uid" : "e7af8bd2d2f04cd2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1726083328174,
+        "stop" : 1726083335792,
+        "duration" : 7618
+      }
+    }, {
       "uid" : "6638040c3a768819",
       "status" : "passed",
       "time" : {
@@ -498,6 +566,26 @@
         "start" : 1722021214829,
         "stop" : 1722021223359,
         "duration" : 8530
+      }
+    } ]
+  },
+  "6ae2f59c968c6942e0afcdf1ee942564" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "645ceabadf5425ee",
+      "status" : "broken",
+      "statusDetails" : "AttributeError: 'NoneType' object has no attribute 'driver'",
+      "time" : {
+        "start" : 1726083320136,
+        "stop" : 1726083320136,
+        "duration" : 0
       }
     } ]
   },
