@@ -6,13 +6,13 @@
       "name" : "test_accessibility",
       "children" : [ {
         "name" : "test_accessibility",
-        "uid" : "4786695fe299dda2",
+        "uid" : "21dca0fb1fbc96d9",
         "parentUid" : "5087c679144ec7a2ed46d1220b98a24b",
         "status" : "passed",
         "time" : {
-          "start" : 1725475229299,
-          "stop" : 1725475231026,
-          "duration" : 1727
+          "start" : 1726080875790,
+          "stop" : 1726080877476,
+          "duration" : 1686
         },
         "flaky" : false,
         "newFailed" : false,
@@ -23,39 +23,39 @@
       "name" : "test_api",
       "children" : [ {
         "name" : "test_status_code",
-        "uid" : "3a555452d141fc9a",
+        "uid" : "638c88ed46dc4b81",
         "parentUid" : "676316b1b7b317019f79052fe28e5eee",
         "status" : "passed",
         "time" : {
-          "start" : 1725475231439,
-          "stop" : 1725475232142,
-          "duration" : 703
+          "start" : 1726080877891,
+          "stop" : 1726080878560,
+          "duration" : 669
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
         "name" : "test_content_type",
-        "uid" : "5ddb8a24cb46aca7",
+        "uid" : "699715796ea695db",
         "parentUid" : "676316b1b7b317019f79052fe28e5eee",
         "status" : "passed",
         "time" : {
-          "start" : 1725475232521,
-          "stop" : 1725475233270,
-          "duration" : 749
+          "start" : 1726080878941,
+          "stop" : 1726080879661,
+          "duration" : 720
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
         "name" : "test_login_button_present_and_clickable",
-        "uid" : "3bee9281e38fdc24",
+        "uid" : "7a71df620b4a602e",
         "parentUid" : "676316b1b7b317019f79052fe28e5eee",
         "status" : "passed",
         "time" : {
-          "start" : 1725475233651,
-          "stop" : 1725475235812,
-          "duration" : 2161
+          "start" : 1726080880040,
+          "stop" : 1726080882187,
+          "duration" : 2147
         },
         "flaky" : false,
         "newFailed" : false,
@@ -66,13 +66,13 @@
       "name" : "test_claim",
       "children" : [ {
         "name" : "Get claim data",
-        "uid" : "38da9b611c64204c",
+        "uid" : "268e194fdd265aa7",
         "parentUid" : "7ee416573b65a59f805356ec139dc735",
         "status" : "passed",
         "time" : {
-          "start" : 1725475236192,
-          "stop" : 1725475243870,
-          "duration" : 7678
+          "start" : 1726080882568,
+          "stop" : 1726080890204,
+          "duration" : 7636
         },
         "flaky" : false,
         "newFailed" : false,
@@ -83,19 +83,53 @@
       "name" : "test_profile",
       "children" : [ {
         "name" : "Change profile name",
-        "uid" : "a7f61ae1abadf1d6",
+        "uid" : "3f419e3a85cd2991",
         "parentUid" : "580ab2b5ee2d1d20f04534ba992fdbbf",
         "status" : "passed",
         "time" : {
-          "start" : 1725475244257,
-          "stop" : 1725475254118,
-          "duration" : 9861
+          "start" : 1726080890592,
+          "stop" : 1726080900320,
+          "duration" : 9728
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       } ],
       "uid" : "580ab2b5ee2d1d20f04534ba992fdbbf"
+    }, {
+      "name" : "test_sql_injection",
+      "children" : [ {
+        "name" : "test_sql_injection[https://opensource-demo.orangehrmlive.com/web/index.php]",
+        "uid" : "27b9cc3b48fbe0db",
+        "parentUid" : "04f61512b7c767cb28199c2868f47405",
+        "status" : "broken",
+        "time" : {
+          "start" : 1726080900379,
+          "stop" : 1726080900379,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'https://opensource-demo.orangehrmlive.com/web/index.php'" ]
+      } ],
+      "uid" : "04f61512b7c767cb28199c2868f47405"
+    }, {
+      "name" : "test_xss",
+      "children" : [ {
+        "name" : "test_xss[https://opensource-demo.orangehrmlive.com/web/index.php]",
+        "uid" : "944ea6c3650b9087",
+        "parentUid" : "dfeecabc7e81df56a5d5c1f123a5090a",
+        "status" : "broken",
+        "time" : {
+          "start" : 1726080900747,
+          "stop" : 1726080900747,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'https://opensource-demo.orangehrmlive.com/web/index.php'" ]
+      } ],
+      "uid" : "dfeecabc7e81df56a5d5c1f123a5090a"
     } ],
     "uid" : "bf49149a3821e34f7608bb6885d52868"
   } ],

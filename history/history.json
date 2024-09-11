@@ -4,11 +4,19 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 5,
+      "passed" : 6,
       "unknown" : 0,
-      "total" : 5
+      "total" : 6
     },
     "items" : [ {
+      "uid" : "7a71df620b4a602e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1726080880040,
+        "stop" : 1726080882187,
+        "duration" : 2147
+      }
+    }, {
       "uid" : "3bee9281e38fdc24",
       "status" : "passed",
       "time" : {
@@ -55,11 +63,19 @@
       "failed" : 0,
       "broken" : 1,
       "skipped" : 0,
-      "passed" : 4,
+      "passed" : 5,
       "unknown" : 0,
-      "total" : 5
+      "total" : 6
     },
     "items" : [ {
+      "uid" : "21dca0fb1fbc96d9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1726080875790,
+        "stop" : 1726080877476,
+        "duration" : 1686
+      }
+    }, {
       "uid" : "4786695fe299dda2",
       "status" : "passed",
       "time" : {
@@ -127,11 +143,19 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 5,
+      "passed" : 6,
       "unknown" : 0,
-      "total" : 5
+      "total" : 6
     },
     "items" : [ {
+      "uid" : "268e194fdd265aa7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1726080882568,
+        "stop" : 1726080890204,
+        "duration" : 7636
+      }
+    }, {
       "uid" : "38da9b611c64204c",
       "status" : "passed",
       "time" : {
@@ -197,11 +221,19 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 5,
+      "passed" : 6,
       "unknown" : 0,
-      "total" : 5
+      "total" : 6
     },
     "items" : [ {
+      "uid" : "638c88ed46dc4b81",
+      "status" : "passed",
+      "time" : {
+        "start" : 1726080877891,
+        "stop" : 1726080878560,
+        "duration" : 669
+      }
+    }, {
       "uid" : "3a555452d141fc9a",
       "status" : "passed",
       "time" : {
@@ -248,11 +280,19 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 5,
+      "passed" : 6,
       "unknown" : 0,
-      "total" : 5
+      "total" : 6
     },
     "items" : [ {
+      "uid" : "699715796ea695db",
+      "status" : "passed",
+      "time" : {
+        "start" : 1726080878941,
+        "stop" : 1726080879661,
+        "duration" : 720
+      }
+    }, {
       "uid" : "5ddb8a24cb46aca7",
       "status" : "passed",
       "time" : {
@@ -332,16 +372,64 @@
       }
     } ]
   },
+  "69bf65d448c4661e8135dc310cb84e6e" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "27b9cc3b48fbe0db",
+      "status" : "broken",
+      "statusDetails" : "AttributeError: 'NoneType' object has no attribute 'driver'",
+      "time" : {
+        "start" : 1726080900379,
+        "stop" : 1726080900379,
+        "duration" : 0
+      }
+    } ]
+  },
+  "4c63bae7515b9ca87756d9f086bb3ffd" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "944ea6c3650b9087",
+      "status" : "broken",
+      "statusDetails" : "AttributeError: 'NoneType' object has no attribute 'driver'",
+      "time" : {
+        "start" : 1726080900747,
+        "stop" : 1726080900747,
+        "duration" : 0
+      }
+    } ]
+  },
   "4b56d7b47a7c073b85147230e50811d8" : {
     "statistic" : {
       "failed" : 0,
       "broken" : 1,
       "skipped" : 0,
-      "passed" : 4,
+      "passed" : 5,
       "unknown" : 0,
-      "total" : 5
+      "total" : 6
     },
     "items" : [ {
+      "uid" : "3f419e3a85cd2991",
+      "status" : "passed",
+      "time" : {
+        "start" : 1726080890592,
+        "stop" : 1726080900320,
+        "duration" : 9728
+      }
+    }, {
       "uid" : "a7f61ae1abadf1d6",
       "status" : "passed",
       "time" : {

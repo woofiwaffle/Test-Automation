@@ -1,0 +1,79 @@
+{
+  "uid" : "944ea6c3650b9087",
+  "name" : "test_xss[https://opensource-demo.orangehrmlive.com/web/index.php]",
+  "fullName" : "tests.test_xss#test_xss",
+  "historyId" : "4c63bae7515b9ca87756d9f086bb3ffd",
+  "time" : {
+    "start" : 1726080900747,
+    "stop" : 1726080900747,
+    "duration" : 0
+  },
+  "status" : "broken",
+  "statusMessage" : "AttributeError: 'NoneType' object has no attribute 'driver'",
+  "statusTrace" : "request = <SubRequest 'driver' for <Function test_xss[https://opensource-demo.orangehrmlive.com/web/index.php]>>\n\n    @pytest.fixture(scope=\"function\", autouse=True)\n    def driver(request):\n        options = Options()\n        options.add_argument(\"--headless\")\n        options.add_argument(\"--no-sandbox\")\n        options.add_argument(\"--disable-dev-shm-usage\")\n        options.add_argument(\"--window-size=1920,1080\")\n        driver = webdriver.Chrome(options=options)\n>       request.cls.driver = driver\nE       AttributeError: 'NoneType' object has no attribute 'driver'\n\nconftest.py:13: AttributeError",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "driver",
+    "time" : {
+      "start" : 1726080900747,
+      "stop" : 1726080901077,
+      "duration" : 330
+    },
+    "status" : "broken",
+    "statusMessage" : "AttributeError: 'NoneType' object has no attribute 'driver'\n",
+    "statusTrace" : "  File \"/usr/local/lib/python3.12/site-packages/pluggy/_callers.py\", line 167, in _multicall\n    teardown.throw(outcome._exception)\n  File \"/usr/local/lib/python3.12/site-packages/_pytest/setuponly.py\", line 36, in pytest_fixture_setup\n    return (yield)\n            ^^^^^\n  File \"/usr/local/lib/python3.12/site-packages/pluggy/_callers.py\", line 103, in _multicall\n    res = hook_impl.function(*args)\n          ^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/usr/local/lib/python3.12/site-packages/_pytest/fixtures.py\", line 1140, in pytest_fixture_setup\n    result = call_fixture_func(fixturefunc, request, kwargs)\n             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/usr/local/lib/python3.12/site-packages/_pytest/fixtures.py\", line 891, in call_fixture_func\n    fixture_result = next(generator)\n                     ^^^^^^^^^^^^^^^\n  File \"/usr/workspace/conftest.py\", line 13, in driver\n    request.cls.driver = driver\n    ^^^^^^^^^^^^^^^^^^\n",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : true,
+    "stepsCount" : 0,
+    "hasContent" : true
+  } ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "tests"
+  }, {
+    "name" : "suite",
+    "value" : "test_xss"
+  }, {
+    "name" : "host",
+    "value" : "a16afc0e6018"
+  }, {
+    "name" : "thread",
+    "value" : "1-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "tests.test_xss"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "url",
+    "value" : "'https://opensource-demo.orangehrmlive.com/web/index.php'"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "944ea6c3650b9087.json",
+  "parameterValues" : [ "'https://opensource-demo.orangehrmlive.com/web/index.php'" ]
+}
