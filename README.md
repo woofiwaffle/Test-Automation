@@ -23,5 +23,6 @@ The project is designed to automate testing of the OrangeHRM web application. Al
 - `js_tests_for_browser` - js tests for the console in the browser
 - `pages/` - Page Objects for web applications
 - `received_data/` - data obtained during testing
+- `security_check` - security testing
 - `tests/` - test scripts
 - `conftest.py` - configuration file for pytest
