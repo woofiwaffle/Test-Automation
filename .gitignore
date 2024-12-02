@@ -4,3 +4,9 @@
 .env
 allure-results
 report
+/__pycache__/
+/base/__pycache__/
+/config/__pycache__/
+/pages/__pycache__/
+/security_check/__pycache__/
+/tests/__pycache__/
